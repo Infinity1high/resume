@@ -1,0 +1,161 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+html, body {
+  margin: 0;
+}
+
+.navigation {
+  position: relative;
+  height: 45px;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: black;
+  box-shadow: none;
+}
+
+.navigation .tabs {
+  display: flex;
+  justify-content: center;
+}
+
+.dark-section {
+  position: absolute;
+  width: 100%;
+  min-height: 300px;
+  height: 60vh;
+  background-image: url('../images/background-1.png');
+  top: -100px;
+  transform: skew(0, -10deg);
+}
+
+.section {
+  position: relative;
+  padding-top: 0;
+  color: white;
+}
+
+.position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.position h3 {
+  margin: 0;
+}
+
+.position p {
+  text-transform: uppercase;
+}
+
+.personal-information {
+  padding: 15px 30px;
+  margin-left:auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  color: black;
+}
+.personal-information .text-information {
+  margin-right: auto;
+}
+
+.avatar {
+  width: 40%;
+}
+
+.skills-title {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.badge {
+  margin-bottom: 5px;
+}
+
+.projects {
+  margin: 20vh 20% 100px 20%;
+}
+
+.project-img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.project-img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.contact {
+  padding: 15px 30px;
+  margin-left:auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  color: black;
+  margin-top: 20vh;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+#contact-form {
+  display: flex;
+}
+
+.input-area {
+  width: 60%;
+}
+
+.text-area {
+  width: 35%;
+  margin-left: 20px;
+  font-size: 12px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.description {
+  margin-top: 30px;
+  color: black;
+}
+
+.project-item {
+  padding: 5px;
+  width: 400px;
+  height: 220px;
+  text-align: center;
+}
+
+@media (max-width: 1300px) {
+  .projects {
+    margin: 20vh 10% 100px 10%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .projects {
+    margin: 20vh 5% 100px 5%;
+  }
+}
